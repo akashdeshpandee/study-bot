@@ -4,7 +4,7 @@ from streamlit_extras.colored_header import colored_header
 from streamlit_extras.stylable_container import stylable_container
 
 # Initialize the Google Gemini client
-genai.configure(api_key="AIzaSyBbcPmilYx3mvi-bWCCZMkCfFE2BOHMTnY")  # Replace with your actual API key
+genai.configure(api_key="Your-api-key")  # Replace with your actual API key
 
 # Set up the Streamlit app with custom theme
 st.set_page_config(
